@@ -3347,7 +3347,14 @@
       "TransactionCordinator/1.0.0": {
         "dependencies": {
           "BookstoreService": "1.0.0",
-          "ServiceBank": "1.0.0"
+          "ServiceBank": "1.0.0",
+          "Microsoft.WindowsAzure.Storage": "8.0.1.0",
+          "Microsoft.WindowsAzure.Configuration": "3.0.0.0",
+          "Microsoft.Data.Services.Client": "5.7.0.0",
+          "Microsoft.Data.OData": "5.7.0.0",
+          "Microsoft.Data.Edm": "5.7.0.0",
+          "Microsoft.Azure.KeyVault.Core": "1.0.0.0",
+          "System.Spatial": "5.7.0.0"
         },
         "runtime": {
           "TransactionCordinator.exe": {}
@@ -3370,9 +3377,126 @@
           "Microsoft.ServiceFabric.Services.Wcf.dll": {}
         }
       },
+      "Microsoft.WindowsAzure.Storage.Reference/8.0.1.0": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.Configuration.Reference/3.0.0.0": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
       "Microsoft.ServiceFabric.Services.Remoting.Reference/6.0.0.0": {
         "runtime": {
           "Microsoft.ServiceFabric.Services.Remoting.dll": {}
+        }
+      },
+      "Microsoft.Data.Services.Client.Reference/5.7.0.0": {
+        "runtime": {
+          "Microsoft.Data.Services.Client.dll": {}
+        },
+        "resources": {
+          "de/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.Data.Services.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.OData.Reference/5.7.0.0": {
+        "runtime": {
+          "Microsoft.Data.OData.dll": {}
+        },
+        "resources": {
+          "de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Data.Edm.Reference/5.7.0.0": {
+        "runtime": {
+          "Microsoft.Data.Edm.dll": {}
+        },
+        "resources": {
+          "de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Azure.KeyVault.Core.Reference/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Azure.KeyVault.Core.dll": {}
         }
       },
       "Microsoft.ServiceFabric.FabricTransport.V2.Reference/8.0.0.0": {
@@ -3383,6 +3507,40 @@
       "Microsoft.ServiceFabric.FabricTransport.Reference/8.0.0.0": {
         "runtime": {
           "Microsoft.ServiceFabric.FabricTransport.dll": {}
+        }
+      },
+      "System.Spatial.Reference/5.7.0.0": {
+        "runtime": {
+          "System.Spatial.dll": {}
+        },
+        "resources": {
+          "de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
         }
       }
     }
@@ -4524,7 +4682,37 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.WindowsAzure.Storage.Reference/8.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAzure.Configuration.Reference/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.ServiceFabric.Services.Remoting.Reference/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Services.Client.Reference/5.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.OData.Reference/5.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Edm.Reference/5.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.KeyVault.Core.Reference/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -4535,6 +4723,11 @@
       "sha512": ""
     },
     "Microsoft.ServiceFabric.FabricTransport.Reference/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Spatial.Reference/5.7.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
