@@ -1,0 +1,15 @@
+﻿@if (ViewData["Title"] != null)
+{
+    <h1 style="color:blue">@ViewData["Title"]</h1>
+}
+
+
+
+    <form method="post" action="@Url.Action("PostData", "HomeController")">
+        <label>Ime</label><input id="ime" name="ime" type="text" />
+        <label>Prezime</label><input id="prezime" name="prezime" type="text" />
+        <label>Knjiga</label><input id="book" name="book" type="text" />
+        <label>Id</label><input id="iden" name="iden" type="number" />
+        <input type="submit" />
+    </form>
+
